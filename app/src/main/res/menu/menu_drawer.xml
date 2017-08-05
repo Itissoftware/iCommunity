@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/qr_code"
+            android:icon="@drawable/orderhistory"
+            android:title="รายละเอียดการส่งข้อมูล" />
+
+
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/myaccount"
+            android:title="ข้อมูลสมาชิก" />
+        <item
+            android:id="@+id/enterprise"
+            android:icon="@drawable/enterprise"
+            android:title="องค์กร/บริษัท" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/enterprise"
+            android:title="ตั้งค่า" />
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/exit"
+            android:title="ออกจากระบบ" />
+
+
+
+        <!--<item-->
+        <!--android:id="@+id/login"-->
+        <!--android:title="Login" />-->
+        <!--<item-->
+        <!--android:id="@+id/logout"-->
+        <!--android:title="Logout" />-->
+        <!--<item-->
+        <!--android:id="@+id/about"-->
+        <!--android:title="@string/about" />-->
+
+
+    </group>
+
+
+</menu>
